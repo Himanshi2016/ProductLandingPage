@@ -1,0 +1,353 @@
+.navbar-brand{
+
+  width: 60vw;
+}
+
+@media (max-width: 660px){
+  .navbar-brand{
+    width: 100%;
+    position:relative;
+    margin-top:17px;
+  }
+
+}
+
+img{
+  
+  width: 100%;
+  max-width:247px;
+  height:100%;
+  margin-left:17px;
+  margin-right: 17px;
+  display: flex;
+}
+
+
+.nav-link{
+  margin:18px;
+  font-weight:600;
+  font-size: 1.5rem;
+  padding:auto; 
+  display: inline-flex;
+  position: relative;
+  
+}
+
+
+
+#heading >h1{
+  align-items:center;
+  text-align:center;
+  font-weight:700;
+  font-size: 5.5rem;
+  color:#348;
+}
+
+#heading1 >h2, #heading2>h2, #heading3>h2, #heading4>h2{
+
+  font-size: 3.5rem;
+  color:#348;
+  margin-left: 22px;
+  padding-top: 15px;
+}
+
+
+
+#Birth > h3{
+  
+  padding-top:18px;
+  margin: auto;
+  color: #FFA500;
+  align-items: center;
+  text-align: center;
+  font-weight:bold;
+  font-size:2.0rem;
+}
+
+#Established >h3, #Model>h3{
+  
+  padding-top:18px;
+  margin: auto;
+  color: #FFA500;
+  align-items: center;
+  text-align: center;
+  font-weight:bold;
+  font-size:2.0rem;
+}
+
+#Model > p, #Established > p , #Birth > p{
+
+  color: #000;
+  text-align:justify;
+  font-size: 1.5rem;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 08px;
+}
+
+
+
+#milk > h4{
+  
+  padding-top:18px;
+  margin: auto;
+  color: #000;
+  align-items: center;
+  text-align: center;
+  font-weight:bold;
+  font-size:2.0rem;
+}
+
+#milk >h5{
+  color: #000;
+  align-items: center;
+  text-align: center;
+  font-size:2.0rem;
+  font-weight: 500;
+}
+
+#milk > p{
+  color:#000;
+  text-align: center;
+  align-items:center;
+  font-size: 1.0rem;
+}
+
+
+h5{
+
+  
+  margin: auto;
+  text-align: center;
+  color: #FFA500;
+}
+
+#milk > ul > li > p{
+
+  color: #000;
+  font-size: 1.5rem;
+  text-align: center;
+  align-items: center;
+}
+
+#ice-cream > h4{
+
+  padding-top:18px;
+  margin: auto;
+  color: #000;
+  align-items: center;
+  text-align: center;
+  font-weight:bold;
+  font-size:2.0rem;
+}
+
+
+table, tr, th, td{
+
+  border: 1px solid black;
+  margin:20px;
+
+}
+
+th{
+  font-size: 1.5rem;
+}
+
+tr, td{
+  font-size: 1.25rem;
+  text-align: center;
+  align-items: center;
+  color: #000;
+  margin: auto;
+  height: auto;
+}
+
+
+table{
+
+  width: 100%;
+  max-width:575px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+  table-layout:fixed;
+  
+}
+
+@media screen and (max-width: 615px)
+{
+  table{
+    max-width:385px;
+    margin-right: 12px;
+    padding-left: 2px;
+    padding-right: 5px;
+  }
+  body{
+    padding-left:1.0rem;
+    padding-right: 1.0rem;
+  }
+}
+
+
+p{
+  
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+@media screen{
+  body{
+    padding-right:2.10rem;
+    padding-left:2.10rem;
+  }
+}
+
+.paneer-type-1 , .paneer-type-2 {
+
+  margin:55px;
+  max-width:575px;
+  max-height:850px;
+  display: inline-block;
+  padding: auto;
+
+}
+
+.milk-type-1, .milk-type-2{
+
+   display: inline-block;
+   margin:35px;
+   padding: auto;
+   max-width:575px;
+   max-height:760px;
+   color: #000;
+
+}
+
+.milk-type-4, .milk-type-5{
+
+   display: inline-block;
+   margin: 35px;
+   padding: auto;
+   max-width: 575px;
+   max-height:760px;
+   color: #000;
+}
+
+#paneer >h4{
+
+  padding-top:18px;
+  margin: auto;
+  color: #000;
+  align-items: center;
+  text-align: center;
+  font-weight:bold;
+  font-size:2.0rem;
+
+}
+
+#chocolate>h4{
+
+  padding-top:18px;
+  margin: auto;
+  color: #FFF;
+  align-items: center;
+  text-align: center;
+  font-weight:bold;
+  font-size:2.25rem;
+
+}
+
+.chocolate-type-1 , .chocolate-type-2 {
+
+  margin:55px;
+  padding: auto;
+  max-width:575px;
+  max-height:880px;
+  color: #FFF;
+  display:inline-block;
+
+}
+
+
+.chocolate-type-1>p , .chocolate-type-2>p{
+
+  font-size: 1.5rem;
+
+}
+
+#org-name>h3, #Unions>h3{
+  color: #000;
+}
+
+#org-name>p, #Unions>p, #aboutGCMMF{
+  color: #000;
+}
+
+#org-name>h3{
+  text-align: center;
+}
+
+#Unions>ol>li{
+  color: #000;
+}
+
+
+#Address>p{
+
+        font-size:1.25rem;
+        color:#FFF;
+        text-align: left;
+
+}
+
+
+.addressing{
+  
+  padding-bottom:04px;
+}
+
+.OrgAmul{
+  background-image: url("https://www.callcentrehelper.com/images/stories/2019/03/ai-metallic-colour-760.jpg");
+  opacity: 0.75;
+}
+
+.brand-1{
+  background: url("https://image.freepik.com/free-vector/simple-milk-background_23-2147592674.jpg");
+  opacity: 0.75;
+}
+
+.brand-2{
+  
+  background: url("https://www.feastingathome.com/wp-content/uploads/2018/12/how-to-make-paneer-100-2.jpg");
+  opacity: 0.75;
+}
+
+#ice-cream{
+ 
+  background: url("https://i.pinimg.com/originals/6e/eb/70/6eeb7020542ea1cb435a7e858caa7f52.jpg");
+  opacity: 0.75;
+}
+
+#chocolate{
+  background-image: url("https://image.isu.pub/190619104329-197db6a2839cb9deb8981f8a3b410830/jpg/page_1.jpg");
+  opacity: 0.75;
+
+}
+
+#AboutAmul{
+  
+  background: url("https://thumbs.dreamstime.com/b/farm-organic-dairy-products-milk-yogurt-cream-cottage-cheese-farm-organic-dairy-products-milk-yogurt-cream-cottage-cheese-butter-122038400.jpg");
+  opacity: 0.75;
+}
+
+.addressing{
+  background: url("https://image.shutterstock.com/image-illustration/contact-us-email-call-message-260nw-1018000423.jpg");
+  
+}
+body{
+  overflow-x: hidden;
+
+}
+
